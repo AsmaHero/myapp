@@ -65,7 +65,7 @@
              * the image's src attribute to the passed in URL.
              */
             resourceCache[url] = false;
-            img.src = url;
+            img.src = 'public/gpublic/' + url;
         }
     }
 

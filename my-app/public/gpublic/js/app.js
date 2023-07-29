@@ -1,6 +1,6 @@
 
 var importedt = document.createElement('script');
-importedt.src = 'js/toast.js';
+importedt.src = 'public/gpublic/js/toast.js';
 document.head.appendChild(importedt);
 
 function updateView(text){
