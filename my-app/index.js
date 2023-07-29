@@ -19,6 +19,7 @@ app.use('/css', express.static('css'));
 app.use('/js', express.static('js'));
 // set path for static assets
 
+ 
+app.listen(process.env.PORT || 5000);
 
-app.listen(process.env.port || 5001); 
-console.log('Running at Port 3000'); 
+console.log('Running at Port 5000'); 
