@@ -14,12 +14,16 @@ router.get('/game', function(req,res) {
     //__dirname : It will resolve to your project folder. 
 }); 
 
-router.get('/data/restaurants.json', function(req,res) { 
-    res.sendFile(path.join(__dirname + '/restaurant-master/data/restaurants.json')); 
+router.get('/restaurant-master', function(req,res) { 
+    res.sendFile(path.join(__dirname + '/restaurant-master/index.html')); 
     //__dirname : It will resolve to your project folder. 
 }); 
 
 
+router.get('/data/restaurants.json', function(req,res) { 
+    res.sendFile(path.join(__dirname + '/restaurant-master/data/restaurants.json')); 
+    //__dirname : It will resolve to your project folder. 
+}); 
 
 
 
